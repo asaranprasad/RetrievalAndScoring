@@ -37,9 +37,10 @@ Kick start the program by executing ```ranker/RankingCaller.java```.
 ## External Libraries Referenced
 
 The following external library need to be referenced to the build path, or via using Maven dependencies.
-1. lucene-analyzers-common-7.3.0.jar
-2. lucene-core-7.3.0.jar
-3. lucene-queryparser-7.3.0.jar
+1. Jsoup 
+2. lucene-analyzers-common-7.3.0.jar
+3. lucene-core-7.3.0.jar
+4. lucene-queryparser-7.3.0.jar
 
 ### Lucene
 ```
@@ -59,6 +60,12 @@ The following external library need to be referenced to the build path, or via u
     <groupId>org.apache.lucene</groupId>
     <artifactId>lucene-queryparser</artifactId>
     <version>7.3.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.9.2</version>
 </dependency>
 ```
 
